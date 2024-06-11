@@ -1,0 +1,52 @@
+@media (width: 320px){
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+
+    .icon-hero{
+        justify-content: center;
+    }
+
+    .navbar-op{
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .navbar-op a {
+        font-size: 16px;
+    }
+
+    .icons-red{
+        justify-content: center;
+    }
+
+    .img-hero h1 {
+        display: none;
+    }
+}
+
+@media (width: 480px){
+    
+}
+
+@media (width: 768px){
+    
+}
+
+@media (width: 1024px){
+    
+}
+
+@media (width: 1280px){
+    
+}
+
+@media (width: 1440px){
+    
+}
+
+@media (width: 1920px){
+    
+}
