@@ -67,6 +67,16 @@
     .circulos-1, .circulos-2, .circulos-3 {
         display: none;
     }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer div {
+        width: 100%;
+        padding: 10px 10px; /* Ajusta el padding para un mejor aspecto en pantallas muy pequeñas */
+    }
 }
 
 
@@ -137,7 +147,18 @@
     .circulos-1, .circulos-2, .circulos-3 {
         display: none;
     }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer div {
+        width: 100%;
+        padding: 10px 20px; /* Ajusta el padding para un mejor aspecto en pantallas pequeñas */
+    }
 }
+
 
 /* Resoluciones entre 481px y 768px */
 @media (min-width: 481px) and (max-width: 768px) {

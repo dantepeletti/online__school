@@ -10,7 +10,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 70px;
+    padding: 30px 70px;
     width: 100%;
     top: 0;
     left: 0;
@@ -261,4 +261,109 @@ main h2, .text-p{
     background-color: #f44336; 
     margin-left: 25px;
 
+}
+
+footer {
+    display: flex; /* Utiliza flexbox para el diseño */
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Alinea los elementos verticalmente */
+    background-color: #222222; /* Color de fondo del footer */
+    padding: 20px; /* Espaciado interno */
+}
+
+footer div {
+    width: calc(33.33% - 20px); /* Calcula el ancho de cada parte del footer (33.33%) y resta el espaciado */
+    padding: 3rem; /* Espaciado interno de cada parte */
+    background-color: #222222; /* Color de fondo de cada parte */
+}
+.stay-connect h6, .stay-connectp{
+    color: white;
+}
+
+form {
+    display: flex;
+    background-color: #222222;
+    padding: 0;
+    border-radius: 5px;
+}
+
+input[type="email"] {
+    width: 200px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #f44336; 
+    color: #222222;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.check-box{
+    color: white;
+    text-align: center;
+}
+
+.check-box input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.check-box label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer .more {
+    color: white; /* Esto limitará el cambio de color al contenido dentro del footer */
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+}
+
+.more h6 {
+    margin-bottom: 3px; /* Espacio entre el título y los elementos */
+}
+
+    /* Estilo para los checkbox */
+.more input[type="checkbox"] {
+    appearance: none; /* Oculta el estilo predeterminado del checkbox */
+    -webkit-appearance: none; /* Para navegadores basados en WebKit */
+    -moz-appearance: none; /* Para navegadores basados en Mozilla */
+    width: 20px; /* Ancho deseado del checkbox */
+    height: 20px; /* Altura deseada del checkbox */
+    border-radius: 50%; /* Hace que el checkbox sea redondo */
+    border: 2px solid whitesmoke; /* Añade un borde alrededor del checkbox */
+    outline: none; /* Elimina el contorno del foco */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el checkbox */
+    margin-right: 5px; /* Espacio entre el checkbox y el texto */
+}
+
+/* Estilo para los checkbox marcados */
+.more input[type="checkbox"]:checked {
+    background-color: #f44336; /* Cambia el color de fondo cuando está marcado */
+}
+
+/* Estilo para los label */
+.more label {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    margin-bottom: 3px; /* Reducir el espacio entre cada elemento */
+}
+
+.info h6, .info p, .info h5 {
+    color: white;
+}
+
+.info i {
+    color: #f44336;
+    font-size: 30px;
 }
