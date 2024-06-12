@@ -1,3 +1,5 @@
+para ver esta pagina haga click [aqui](https://dantepeletti.github.io/online__school/)
+
 School Online
 Este proyecto es un sitio web para una escuela en línea. Proporciona información sobre los cursos ofrecidos, el equipo detrás de la escuela y cómo aplicar para unirse al equipo.
 
