@@ -14,7 +14,7 @@ header{
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 2; /* Asegura que el contenido del header esté por encima de la capa negra */
+    z-index: 1000; /* Asegura que el contenido del header esté por encima de la capa negra */
 
 }
 
@@ -180,14 +180,18 @@ main h2, .text-p{
     text-align: center;
 }
 
-.button-apply h3, p{
+.button-apply h3 {
     text-align: center;
     margin: 30px;
 }
 
+.txt-p{
+    text-align: center;
+}
+
 .btn-secondary{
     background-color:#f44336 ;
-    color: white;
+    color: black;
     transition: 2s;
 }
 
@@ -202,5 +206,59 @@ main h2, .text-p{
     margin: 0 auto; /* Esto centra el botón horizontalmente */
     display: block; /* Esto asegura que el botón se muestre como un bloque */
     background-color:rgb(202, 91, 0) ;
-    color: black;
+    color: white;
+}
+
+.section-end, .section-end h3, .section-end p {
+    margin: 40px 30px;
+    text-align: left;
+}
+
+.person-img, .person-img-2, .person-img-3 {
+    width: 50px; /* Tamaño deseado de la imagen */
+    height: 50px; /* Tamaño deseado de la imagen */
+    border-radius: 50%; /* Para hacer la imagen circular */
+}
+
+.team-members {
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    justify-content: space-between; /* Distribuye los elementos de manera uniforme en el contenedor */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas si es necesario */
+}
+
+.team-member, .team-member-2, .team-member-3 {
+    width: calc(33.33% - 20px); /* Establece el ancho de cada miembro del equipo */
+    max-width: 300px; /* Ajusta el ancho máximo de cada miembro del equipo */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.circles-container {
+    display: flex; /* Utiliza flexbox para alinear los círculos */
+}
+
+.circulos-1, .circulos-2, .circulos-3 {
+    width: 3rem; /* Aumenta el ancho del círculo */
+    height: 3rem; /* Ajusta la altura para mantener la forma circular */
+    border-radius: 50%; /* Hace que el elemento sea un círculo */
+    margin-right: 1px; /* Agrega espacio entre los círculos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulos-1 {
+    background-color: #3f51b5; 
+    margin-left: 25px;
+}
+
+.circulos-2 {
+    background-color: #2196f3; 
+    margin-left: 25px;
+
+}
+
+.circulos-3 {
+    background-color: #f44336; 
+    margin-left: 25px;
+
 }

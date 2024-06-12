@@ -44,7 +44,32 @@
     .circle p {
         margin-top: 10px; /* Ajustar el margen superior del texto */
     }
+
+    .section-end {
+        padding: 10px; /* Agrega un relleno para separar el contenido del borde */
+    }
+    
+    .team-members {
+        display: flex; /* Utiliza flexbox para alinear los elementos */
+        flex-direction: column; /* Coloca los elementos en columnas */
+        gap: 30px; /* Espacio entre cada miembro del equipo */
+    }
+    
+    .team-member {
+        max-width: 100%; /* Ajusta el ancho máximo de cada miembro del equipo */
+    }
+
+    .circulos-1, .circulos-2, .circulos-3 {
+        width: 20px;
+        height: 20px;
+    }
+
+    .circulos-1, .circulos-2, .circulos-3 {
+        display: none;
+    }
 }
+
+
 
 /* Resoluciones entre 321px y 480px */
 @media (min-width: 321px) and (max-width: 480px) {
@@ -94,6 +119,23 @@
 
     .circle p {
         margin-top: 10px; /* Ajustar el margen superior del texto */
+    }
+
+    .section-end {
+        padding: 10px; /* Agrega un relleno para separar el contenido del borde */
+    }
+    
+    .team-members {
+        display: flex; /* Utiliza flexbox para alinear los elementos */
+        flex-direction: column; /* Coloca los elementos en columnas */
+        gap: 30px; /* Espacio entre cada miembro del equipo */
+    }
+    
+    .team-member {
+        max-width: 100%; /* Ajusta el ancho máximo de cada miembro del equipo */
+    }
+    .circulos-1, .circulos-2, .circulos-3 {
+        display: none;
     }
 }
 
