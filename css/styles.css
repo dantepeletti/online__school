@@ -10,7 +10,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 70px;
-    width: 90%;
+    width: 100%;
     position: fixed;
     z-index: 2; /* Asegura que el contenido del header esté por encima de la capa negra */
 
@@ -121,8 +121,58 @@ header{
     position: absolute;
     z-index: 2;
     color: white;
-    font-size: 2rem;
+    font-size: 45px;
+    font-weight: 200;
     text-align: center;
     padding: 0 20px;
     margin: 0;
+}
+.img-hero span{
+    font-weight: bold;
+}
+
+main {
+    position: relative;
+    background-color: #f8f8f8; /* Color de fondo del contenedor */
+    padding: 50px 0; /* Ajusta el relleno según sea necesario */
+}
+main h2, p{
+    margin: 30px 30px;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: space-around; /* Alinea los círculos horizontalmente */
+    margin-top: 20px; /* Espacio entre el título y los círculos */
+}
+
+.circle-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 180px; /* Aumenta el ancho del círculo */
+    height: 180px; /* Ajusta la altura para mantener la forma circular */
+    border-radius: 50%; /* Hace que el elemento sea un círculo */
+    background-color: rgb(190, 86, 0); /* Color naranja */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.circle-text {
+    text-align: center; /* Alinea el texto al centro */
+    margin-top: 80px; /* Espacio entre los círculos y el texto */
+    max-width: 380px; /* Asegura que el texto no exceda el ancho del círculo */
+}
+
+.circle p {
+    margin-top: 32rem; /* Espacio entre el círculo y el texto */
+    font-size: 12px; /* Tamaño de fuente del texto */
+    color: black; /* Color del texto */
+    text-align: center;
 }
